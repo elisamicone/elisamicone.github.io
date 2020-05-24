@@ -2,24 +2,41 @@ body {
   background-color: white;
   color: #a3ff0b;
   font-family: 'Roboto Mono', monospace;
+    margin: 0px;
 }
-a {
+header{
+  padding-left:40px;
+	padding-top: 60px;
+}
+
+h1 {
+  font-size:80px;
+}
+#tagline {
+    font-size:50px;
+    width:60%;
+}
+h2 {
+  font-size:50px;
+ }
+  a {
   color:  #a3ff0b;
+  font-size: 20px;
 }
-#navbar {
+.topnav {
+  background-color: #7D4D97;
   text-align: right;
   position: fixed;
-  top: 0px; 
-  left:800px;
+  top:0%;
+  width:100%;
+  overflow: hidden;
+  padding:20px;
 }
-@media (max-width:700px){
-  nav{
-    flex-direction: column;
-    }
-#box {
-    background-color: #7D4D97;
-    color: black;
-  top: 0px;
-    padding: 20px;
-    margin: -15px;
-  }
+.topnav a:hover {
+  background-color: #a3FF0B;
+  color: #7D4D97;
+}
+p {
+  font-size: 30px;
+  padding-top:-150%;
+}
