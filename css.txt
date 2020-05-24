@@ -3,9 +3,6 @@ body {
   color: #a3ff0b;
   font-family: 'Roboto Mono', monospace;
 }
-a {
-  color:  #a3ff0b;
-  }
 #navbar {
   text-align: right;
   position: fixed;
