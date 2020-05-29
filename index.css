@@ -1,30 +1,82 @@
 body {
-  background-color: white;
+  background-color: #7d4d97;
   color: #a3ff0b;
   font-family: 'Roboto Mono', monospace;
-    margin: 0px;
+    margin: 0px;  
 }
-header{
-  padding-left:40px;
-	padding-top: 60px;
-}
-
+header {
+   }
 h1 {
   font-size:80px;
+  color: #a3ff0b;
+  padding-left:40px;
 }
 #tagline {
     font-size:50px;
     width:60%;
+  color: #a3ff0b;
+  padding-left:40px;
+}
+#linkedin {
+  color: #a3ff0b;
+  padding-left:40px;
+}
+#about-me {
+  padding-left:40px;
+   
+}
+.container {
+    font-size: 20px;
+    color:#a3ff0b;
+  text-align: left;
+  padding-left: 40px;
+    text-align: left;
+   }
+.container-2{
+    font-size: 20px;
+    color: #a3ff0b;
+  text-align: left;
+  padding-left: 40px;
+}
+.container-3 {
+    font-size: 20px;
+    color: #a3ff0b;
+  text-align: left;
+  padding-left: 40px;
+}
+.container-4 {
+    font-size: 20px;
+    color: #a3ff0b;
+  text-align: left;
+  padding-left: 40px;
+}
+#edu {
+background-color: #7d4d97;
+  padding-left:40px;
+}
+#ideas {
+background-color: #7d4d97;
+  padding-left:40px;
+}
+#contacts {
+background-color: #7d4d97;
+  padding-left:40px;
+}
+.app {
+  color: #a3ff0b;
 }
 h2 {
   font-size:50px;
  }
   a {
-  color:  #a3ff0b;
+  color:  #7d4d97;
   font-size: 20px;
+   padding-left:40px;
+	padding-top: 60px;
+    font-weight: bold;
 }
 .topnav {
-  background-color: #7D4D97;
+  background-color: #a3ff0b;
   text-align: right;
   position: fixed;
   top:0%;
@@ -33,12 +85,43 @@ h2 {
   padding:20px;
 }
 .topnav a:hover {
-  background-color: #a3FF0B;
-  color: #7D4D97;
+  background-color: #7D4D97;
+  color: #a3ff0b;
 }
 p {
-  font-size: 30px;
+  font-size: 20px;
   padding-top:-150%;
 }
+
+#message-box {
+  padding-top:20px;
+}
+#button {
+padding-top:20px;
+  }
+button {
+  background-color: #a3ff0b;
+  color: #7D4D97;
+  font-size: 15px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 3px 10px 3px 10px;
+  
+}
+button:hover {
+   background-color:#7D4D97;
+    color: #a3ff0b;
+  }
+#footer {
+  padding-left: 10px;
+  padding-top: 60px;
+  text-color: #a3ff0b;
+}
+#github {
+  color: #a3ff0b;
+  
+}
+
 
   
