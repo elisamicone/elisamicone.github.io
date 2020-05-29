@@ -1,36 +1,54 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="https://github.com/elisamicone/elisamicone.github.io/blob/master/index.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
-     </head>
-<body>
+  <script type="text/javascript" src="plugins.js"></script>
+  <body>
   <main>
       <div class="topnav">
     <a href="#about-header">about me |</a>
   <a href="#edu-header">education & skills |</a>
-  <a href="#ideas-header">ideas & mission |</a>
+  <a href="#ideas-header">ideas & dreams |</a>
   <a href="#contacts-header">contacts</a>
       </div>
+    
     <header id="header">
      <h1> Elisa Amicone </h1>
     <div id="middle">
         <div id="tagline" class="animated zoomIn" style="animation-delay:1.8s;">
            Passionate about education and a bunch of stuff. <br>  </div>
-    Check my Linkedin for a standard description of my academic and professional background. But then come back here ☺
+    <div id="linkedin"> Check my Linkedin for a standard description of my academic and professional background. <br> But then come back here :) </div>
       <a href="https://www.linkedin.com/in/elisaamicone/"><img src="https://drive.google.com/open?id=135hPiO9h9qmRjMyWjFJsrUFn1aLYiGMM"></a>       
-<h2 id="about-header">about me</h2>
-  <h2 id="edu-header">education & skills</h2>
-  <h2 id="ideas-header">ideas & mission</h2>
-  <h2 id="contacts-header">contacts</h2>
-      <p>Say, ask, tell. My email is elisa.amicone@gmail.com </p>
-      <div id="footer">
-        © 2020 Elisa Amicone. Made this while practicing my (self-taught) coding skills<br><br> <a href="https://github.com/elisamicone">elisamicone</a>
+    <div id= "about-me"><h2 id="about-header">about me</h2> </div>
+      <div class="container"> <p id="description"> Hello, I'm Elisa. <br> Or I could say "Ciao! Sono Elisa" because I was born in Rome in 1995. And then, "Hej, jag är Elisa".<br> Yes, you guessed right, that's swedish! <br> I lived in Stockholm for a couple of years. I moved there to study and it turned out to be a life-changing experience. <br> But hey, does it really exist an experience that is not life-changing? 
+        <p id="description 2">I am interested in all forms and levels of education.   </p> </div>
+      <div id= "edu"><h2 id="edu-header">education & skills</h2> </div>
+      <div class="container-2"> <p id="description"> I grew up surrounded by love for education, learning and discovery. <br> I have a background in Education Science and then I decided to pursue a master <br> in International and Comparative Education in Stockholm. mention transdisciplinariety, aggiornamento </p>  </div>
+      <div id= "ideas"><h2 id="ideas-header">ideas & dreams</h2></div>
+      <div class="container-3"> <p id="description"> Ideas <br> I am working on an app ask me about here
+        <br> Dreams <br> Change the world <br> Be a TED Speaker <br> know a little bit about everything </p> </div>
+      <div id= "contacts"><h2 id="contacts-header">contacts</h2></div>
+      <div class="container-4"> <p id="description"> Say, ask, tell. <br> Use the form below or send an email to elisa.amicone@gmail.com </p>
+
+<form action="https://formspree.io/xvowkrap"method="POST"> 
+  <form>
+    <label>
+    Your email:
+      <div id="name-box"> <input type="text" name="_replyto"> </div>
+  </label>
+  <div id="message-box">
+    <label>
+    Your message:
+      <div id="message-box"> <textarea name="message"></textarea>  </label> </div>
+    <div id="button"> <button type="submit">Send</button> </div>
+</form>
+      </div>
+  <div id="footer"> © 2020 <a id="github" href="https://github.com/elisamicone"> elisamicone </a> <br> Made this while practicing my coding skills </div>
+      
     </div>
+   
       </header>
       </main>    
    
   </body>
-  
 </html>
