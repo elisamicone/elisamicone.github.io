@@ -109,7 +109,9 @@ p {
   font-size: 20px;
   padding-top:-150%;
 }
-
+#_replyto{
+  padding-top:20px;
+  }
 #message-box {
   padding-top:20px;
    }
