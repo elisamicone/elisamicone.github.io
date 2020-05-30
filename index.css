@@ -33,6 +33,7 @@ h1 {
 
 #about-me {
   padding-left:40px;
+   
 }
 .container {
     font-size: 20px;
@@ -108,9 +109,7 @@ p {
   font-size: 20px;
   padding-top:-150%;
 }
-#name-box {
-  padding-top:20px;
-  }
+
 #message-box {
   padding-top:20px;
    }
@@ -211,5 +210,4 @@ button:hover {
   //CSS
   
 }
-    
     
