@@ -1,3 +1,7 @@
+html {
+  scroll-padding-top: 70px; /* height of sticky header */
+}
+
 body {
   background-color: #7d4d97;
   color: #a3ff0b;
@@ -11,6 +15,7 @@ h1 {
   font-size:80px;
   color: #a3ff0b;
   padding-left:40px;
+  padding-top:40px;
 }
 
 #tagline {
@@ -22,7 +27,9 @@ h1 {
 #linkedin {
   color: #a3ff0b;
   padding-left:40px;
+  font-size:20px;
 }
+
 #about-me {
   padding-left:40px;
    
@@ -74,17 +81,24 @@ h2 {
   color:  #7d4d97;
   font-size: 20px;
    padding-left:40px;
-	padding-top: 60px;
     font-weight: bold;
+    text-decoration: none;
 }
 .topnav {
   background-color: #a3ff0b;
-  text-align: right;
   position: fixed;
   top:0%;
   width:100%;
   overflow: hidden;
-  padding:20px;
+  padding:0px;
+  text-align:right;
+  
+}
+ul {
+  float:right;
+}
+li {
+  float:left;
 }
 .topnav a:hover {
   background-color: #7D4D97;
@@ -97,7 +111,13 @@ p {
 
 #message-box {
   padding-top:20px;
-}
+   }
+ textarea {
+   width:300px;
+   height: 100px;
+    
+  }
+
 #button {
 padding-top:20px;
   }
@@ -189,4 +209,5 @@ button:hover {
   //CSS
   
 }
+    
     
