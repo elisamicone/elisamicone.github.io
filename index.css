@@ -208,6 +208,7 @@ button:hover {
 @media (min-width: 320px) and (max-width: 480px) {
   
   //CSS
-  
+  body {
+    text-align:center;
 }
     
