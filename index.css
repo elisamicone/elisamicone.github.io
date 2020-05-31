@@ -223,6 +223,9 @@ button:hover {
   a {
     font-size:10px;
      }
+  h1 {
+    padding-left: 0px;
+    }
     #content {
-      padding-left:10px;
+      padding-left:0px;
        }
