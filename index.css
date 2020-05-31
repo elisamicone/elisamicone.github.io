@@ -211,4 +211,7 @@ button:hover {
   body {
     text-align:center;
 }
+  ul {
+    float:center;
+    }
     
