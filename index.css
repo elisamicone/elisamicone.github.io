@@ -223,4 +223,6 @@ button:hover {
   a {
     font-size:10px;
      }
-    
+    #content {
+      padding-left:20px;
+       }
