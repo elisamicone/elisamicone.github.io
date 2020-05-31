@@ -217,4 +217,10 @@ button:hover {
   ul {
     float:center;
     }
+  li {
+    float:center;
+    }
+  a {
+    font-size:10px;
+     }
     
