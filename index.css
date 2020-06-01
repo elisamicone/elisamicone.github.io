@@ -13,9 +13,8 @@ header {
   padding-top:40px;
    }
 elisaimg {
-  width:500px;
-  height:250px;
-  padding-left:60%;
+  height: auto;
+  width: 100%;
   }
 h1 {
   font-size:80px;
