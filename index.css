@@ -14,8 +14,9 @@ header {
    }
 .elisaimg {
   position: relative; 
-   width:300px;
-     height:150px;
+  padding-left:80px;
+   width:150px;
+     height:75px;
   }
 h1 {
   font-size:80px;
