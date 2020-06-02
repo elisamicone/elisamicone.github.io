@@ -62,7 +62,7 @@ h1 {
 .container {
     font-size: 20px;
     color:#44f57e;
-  text-align: justify;
+  text-align: left;
   padding-left: 40px;
   background-color: ;
    }
@@ -268,24 +268,24 @@ button:hover {
     
 }
 	.container {
-		padding-left:10px;
-		padding-right:10px;	
+		padding-left:6px;
+		padding-right:6px;	
 		}
 	.container-1 {
-		padding-left:10px;
-		padding-right:10px;
+		padding-left:6px;
+		padding-right:6px;
 		}
 	.container-2 {
-		padding-left:10px;
-		padding-right:10px;
+		padding-left:6px;
+		padding-right:6px;
 		}
 	.container-3 {
-		padding-left:10px;
-		padding-right:10px;
+		padding-left:6px;
+		padding-right:6px;
 		}
 	.container-4 {
-		padding-left:10px;
-		padding-right:10px;
+		padding-left:6px;
+		padding-right:6px;
 		}
 
     
