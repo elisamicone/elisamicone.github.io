@@ -259,7 +259,7 @@ img {
  position:absolute;
   vertical-align:top;
   bottom:40px;
-  left:100px;  
+  left:0px;  
 	height: auto;
   width: 50%;
 	max-width:720px;
