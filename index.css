@@ -18,15 +18,15 @@ header {
 img {
  position:absolute;
   vertical-align:top;
-  bottom:-140px;
+  bottom:-80px;
   left:800px;   
-   width:550px;
+   width:700px;
      heigth:200px;
   border-color: #4deb87;
     border-width: 5px;
     border-style: solid;
   border-radius:50%;
-   transform: scale(0.5);
+   transform: scale(1);
      z-index:1;
 }
 i {
