@@ -3,120 +3,143 @@ html {
 }
 
 body {
-  background-color: #7d4d97;
-  color: #a3ff0b;
+  background-color:#7d4d97;
+  color: #6BF57E;
   font-family: 'Varela Round', sans-serif;
     margin: 0px;
   opacity:0.9;
 }
 header {
   padding-top:40px;
+  padding-bottom:10px;
+  z-index:2;
+  
    }
 img {
-   position:relative;
-  padding-left:80px;
-   width:100px;
-     height:50px;
+ position:absolute;
+  vertical-align:top;
+  bottom:-140px;
+  left:800px;   
+   width:550px;
+     heigth:200px;
   border-color: #4deb87;
-    border-width: 3px;
+    border-width: 5px;
     border-style: solid;
-  border-radius:60px;
-  }
+  border-radius:50%;
+   transform: scale(0.5);
+     z-index:1;
+}
+i {
+  font-size:40px;
+  color:#4deb87;
+  padding-left:40px;
+}
 h1 {
   font-size:80px;
-  color: #a3ff0b;
+  color: #4deb87;
   padding-left:40px;
   padding-top:40px;
 }
-.i {
-font-size:40px;
-  color:#a3ff0b;
-}
-#tagline {
+
+.tagline {
     font-size:50px;
     width:60%;
-  color: #a3ff0b;
+  color: #4deb87;
   padding-left:40px;
 }
 #linkedin {
-  color: #a3ff0b;
+  color: #a3ff3b;
   padding-left:40px;
   font-size:20px;
+  
 }
 
 #about-me {
   padding-left:40px;
+  padding-top:60px;
    
 }
 .container {
     font-size: 20px;
-    color:#a3ff0b;
-  text-align: left;
+    color:#44f57e;
+  text-align: justify;
   padding-left: 40px;
-    text-align: left;
+  background-color: ;
    }
 .container-2{
     font-size: 20px;
-    color: #a3ff0b;
+    color: #44f57e;
   text-align: left;
   padding-left: 40px;
 }
 .container-3 {
     font-size: 20px;
-    color: #a3ff0b;
+    color: #44f57e;
   text-align: left;
   padding-left: 40px;
 }
 .container-4 {
     font-size: 20px;
-    color: #a3ff0b;
+    color: #44f57e;
   text-align: left;
   padding-left: 40px;
 }
 #edu {
-background-color: #7d4d97;
+background-color: #;
   padding-left:40px;
 }
 #ideas {
-background-color: #7d4d97;
+background-color: #;
   padding-left:40px;
 }
 #contacts {
-background-color: #7d4d97;
+background-color: #;
   padding-left:40px;
 }
-.app {
-  color: #a3ff0b;
+#here {
+ color: #9ffc55;
+  font-size: 20px;
+  font-weight: bold;
+    text-decoration: none;
+}
+#here:hover {
+  background-color: #7d4d97;
+  color: #44f57e;
 }
 h2 {
   font-size:50px;
  }
-  a {
-  color:  #7d4d97;
+  #links {
+ color:#7d4d97;
   font-size: 20px;
    padding-left:40px;
     font-weight: bold;
     text-decoration: none;
+    
 }
+
 .topnav {
-  background-color: #a3ff0b;
+  background-color: #44f57e;
   position: fixed;
   top:0%;
   width:100%;
   overflow: hidden;
   padding:0px;
-  text-align:right;
+  z-index:2;
+  
   
 }
 ul {
   float:right;
+  
+  
 }
 li {
-  float:left;
+  float:left; 
 }
-.topnav a:hover {
+.topnav #links:hover {
   background-color: #7D4D97;
-  color: #a3ff0b;
+  color: #44f57e;
 }
 p {
   font-size: 20px;
@@ -124,40 +147,51 @@ p {
 }
 #name-box {
   padding-top:20px;
-   }
+  
+  }
+input {
+  border-radius:24px;
+  border: 3px solid #44f57e;
+  width: 200px;
+  height:20px;
+ 
+}
 #message-box {
   padding-top:20px;
+ 
    }
  textarea {
    width:300px;
    height: 100px;
-    
+   border-radius: 24px;
+    border: 3px solid #44f57e;
   }
 
 #button {
 padding-top:20px;
   }
 button {
-  background-color: #a3ff0b;
+  background-color: #44f57e;
   color: #7D4D97;
   font-size: 15px;
   font-family: 'Roboto Mono', monospace;
   font-weight: bold;
-  border-radius: 5px;
   padding: 3px 10px 3px 10px;
-  
+  border-radius: 20px;
+	box-shadow: 0 5px 35px 0 rgba(51, 51, 51, 0.26);
+  width: auto;
 }
 button:hover {
    background-color:#7D4D97;
-    color: #a3ff0b;
+    color: #44f57e;
   }
 #footer {
   padding-left: 10px;
   padding-top: 60px;
-  text-color: #a3ff0b;
+  text-color: #44f57e;
 }
 #github {
-  color: #a3ff0b;
+  color: #44f57e;
   
 }
 /* 
@@ -223,24 +257,6 @@ button:hover {
 @media (min-width: 320px) and (max-width: 480px) {
   
   //CSS
-  body {
-    text-align:center;
+  
 }
-  a {
-    padding:0px;
-    }
-  ul {
-    float:center;
-    }
-  li {
-    float:center;
-    }
-  a {
-    font-size:15px;
-     }
-  h1 {
-    padding-left: 10px;
-    }
-    .content {
-      padding-left:10px;
-       }
+    
