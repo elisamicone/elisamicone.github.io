@@ -21,7 +21,7 @@ img {
   bottom:-200px;
   left:800px;   
    width:700px;
-     heigth:200px;
+     heigth:500px;
   border-color: #4deb87;
     border-width: 5px;
     border-style: solid;
@@ -56,7 +56,7 @@ h1 {
 
 #about-me {
   padding-left:40px;
-  padding-top:60px;
+  padding-top:80px;
    
 }
 .container {
