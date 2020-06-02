@@ -268,18 +268,22 @@ button:hover {
     
 }
 	.container {
-		text-align:justify;
+		margin-left:10px;
+		
 	.container-1 {
-		padding-left:10px;
+		margin-left:10px;
 		}
 	.container-2 {
 		padding-left:10px;
+		padding-right:10px;
 		}
 	.container-3 {
 		padding-left:10px;
+		padding-right:10px;
 		}
 	.container-4 {
 		padding-left:10px;
+		padding-right:10px;
 		}
 
     
