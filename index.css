@@ -268,10 +268,12 @@ button:hover {
     
 }
 	.container {
-		margin-left:10px;
-		
+		padding-left:10px;
+		padding-right:10px;	
+		}
 	.container-1 {
-		margin-left:10px;
+		padding-left:10px;
+		padding-right:10px;
 		}
 	.container-2 {
 		padding-left:10px;
