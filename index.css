@@ -18,10 +18,10 @@ header {
 img {
  position:absolute;
   vertical-align:top;
-  bottom:-200px;
+  bottom:-300px;
   left:800px;   
-   width:700px;
-     heigth:500px;
+   width:500px;
+     heigth:300px;
   border-color: #4deb87;
     border-width: 5px;
     border-style: solid;
