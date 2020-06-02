@@ -258,8 +258,8 @@ button:hover {
 img {
  position:absolute;
   vertical-align:top;
-  bottom:0px;
-  left:0px;  
+  top:5px;
+  left:40px;  
 	height: auto;
   width: 50%;
 	max-width:720px;
