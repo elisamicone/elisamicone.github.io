@@ -255,16 +255,12 @@ button:hover {
 
 @media (min-width: 320px) and (max-width: 480px) {
  
-img {
- position:relative;
-  vertical-align:top;
-  float:right;
+img{
 	height: auto;
-  width: 50%;
-	max-width:720px;
-}
-
+	width:50%;
+	text-align:right;
 	
+	{
 	
 	
 	 #links {
