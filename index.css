@@ -256,9 +256,9 @@ button:hover {
 @media (min-width: 320px) and (max-width: 480px) {
  
 img{
-	display: table-header-group;
+	vertical-align:center;
 	height: auto;
-	
+	width:50%;
 	
 	}
 	
