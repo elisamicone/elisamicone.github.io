@@ -257,6 +257,7 @@ button:hover {
  
 img{
 	position:relative;
+	right:20px;
 	height: auto;
 	 width: 33%;
    max-width: 180px;
