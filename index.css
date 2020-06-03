@@ -257,9 +257,10 @@ button:hover {
  
 img {
 position:relative;
-	right:15%;
+	right:80%;
 	height:auto;
-	
+	width:50%;
+	}
 	 #links {
   font-size: 20px;
    padding-left:0px;
