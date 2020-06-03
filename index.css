@@ -256,8 +256,7 @@ button:hover {
 @media (min-width: 320px) and (max-width: 480px) {
  
 img {
-  max-width:100%;
-	height:auto;
+  display:none;
 	}
 	 #links {
   font-size: 20px;
