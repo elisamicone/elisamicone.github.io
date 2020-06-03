@@ -256,10 +256,10 @@ button:hover {
 @media (min-width: 320px) and (max-width: 480px) {
  
 img {
-	display:none;
+transform: skewX(-32deg);
+	height:auto;
 	
 	 #links {
- 
   font-size: 20px;
    padding-left:0px;
     font-weight: bold;
