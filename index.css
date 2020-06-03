@@ -256,7 +256,8 @@ button:hover {
 @media (min-width: 320px) and (max-width: 480px) {
  
 img {
-transform: skewX(-32deg);
+position:relative;
+	right:15%;
 	height:auto;
 	
 	 #links {
