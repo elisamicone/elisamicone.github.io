@@ -256,9 +256,10 @@ button:hover {
 @media (min-width: 320px) and (max-width: 480px) {
  
 img {
-position:relative;
-	right:100%;
-	height:auto;
+  width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
 	}
 	 #links {
   font-size: 20px;
